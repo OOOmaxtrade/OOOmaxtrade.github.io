@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5,
   border-width: 2px; }
 
 .text-black {
-  color: #fff !important; }
+  color: #737373 !important; }
 
 .bg-black {
   background: #000 !important; }
@@ -811,7 +811,11 @@ h1, h2, h3, h4, h5,
   padding: 7rem 0; }
   @media (max-width: 991.98px) {
     .site-section {
-      padding: 3rem 0; } }
+      padding-top: 3rem 0; 
+      padding-left: 3rem 0;
+      padding-right: 3rem 0;
+      padding-bottom: -200px; 
+      } }
 
 .gradient-bg-1, .block-feature-1 .icon {
   background: #51eaea;
